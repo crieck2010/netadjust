@@ -1,0 +1,226 @@
+{
+  "name": "Example: braced square + center point",
+  "units": "m",
+  "points": [
+    {
+      "id": "A",
+      "e": 1000.0,
+      "n": 1000.0,
+      "h": 100.0,
+      "fixed_e": true,
+      "fixed_n": true,
+      "fixed_h": true
+    },
+    {
+      "id": "B",
+      "e": 1200.0,
+      "n": 1000.0,
+      "h": 101.25,
+      "fixed_e": true,
+      "fixed_n": true
+    },
+    {
+      "id": "C",
+      "e": 1200.05,
+      "n": 1199.96,
+      "h": 102.11999999999999
+    },
+    {
+      "id": "D",
+      "e": 1000.05,
+      "n": 1199.96,
+      "h": 100.86999999999999
+    },
+    {
+      "id": "E",
+      "e": 1103.05,
+      "n": 1096.96,
+      "h": 101.52
+    }
+  ],
+  "observations": [
+    {
+      "type": "distance",
+      "from": "A",
+      "to": "B",
+      "value": 200.006,
+      "sigma": 0.005
+    },
+    {
+      "type": "distance",
+      "from": "B",
+      "to": "C",
+      "value": 199.993,
+      "sigma": 0.005
+    },
+    {
+      "type": "distance",
+      "from": "C",
+      "to": "D",
+      "value": 200.003,
+      "sigma": 0.005
+    },
+    {
+      "type": "distance",
+      "from": "D",
+      "to": "A",
+      "value": 200.008,
+      "sigma": 0.005
+    },
+    {
+      "type": "distance",
+      "from": "A",
+      "to": "C",
+      "value": 282.83671247461905,
+      "sigma": 0.005
+    },
+    {
+      "type": "distance",
+      "from": "B",
+      "to": "D",
+      "value": 282.849712474619,
+      "sigma": 0.005
+    },
+    {
+      "type": "distance",
+      "from": "A",
+      "to": "E",
+      "value": 141.48098153514388,
+      "sigma": 0.005
+    },
+    {
+      "type": "distance",
+      "from": "B",
+      "to": "E",
+      "value": 137.18071555019023,
+      "sigma": 0.005
+    },
+    {
+      "type": "distance",
+      "from": "C",
+      "to": "E",
+      "value": 141.47698153514386,
+      "sigma": 0.005
+    },
+    {
+      "type": "distance",
+      "from": "D",
+      "to": "E",
+      "value": 145.6699969244288,
+      "sigma": 0.005
+    },
+    {
+      "type": "angle",
+      "at": "A",
+      "from": "D",
+      "to": "B",
+      "value_deg": 90.00138888888888,
+      "sigma_arcsec": 5.0
+    },
+    {
+      "type": "angle",
+      "at": "B",
+      "from": "A",
+      "to": "C",
+      "value_deg": 89.99888888888889,
+      "sigma_arcsec": 5.0
+    },
+    {
+      "type": "angle",
+      "at": "C",
+      "from": "B",
+      "to": "D",
+      "value_deg": 90.00166666666667,
+      "sigma_arcsec": 5.0
+    },
+    {
+      "type": "angle",
+      "at": "D",
+      "from": "C",
+      "to": "A",
+      "value_deg": 89.99861111111112,
+      "sigma_arcsec": 5.0
+    },
+    {
+      "type": "angle",
+      "at": "A",
+      "from": "E",
+      "to": "B",
+      "value_deg": 43.282753109455655,
+      "sigma_arcsec": 5.0
+    },
+    {
+      "type": "angle",
+      "at": "B",
+      "from": "E",
+      "to": "C",
+      "value_deg": 44.99833333333333,
+      "sigma_arcsec": 5.0
+    },
+    {
+      "type": "angle",
+      "at": "C",
+      "from": "E",
+      "to": "D",
+      "value_deg": 46.719191334988786,
+      "sigma_arcsec": 5.0
+    },
+    {
+      "type": "angle",
+      "at": "D",
+      "from": "E",
+      "to": "A",
+      "value_deg": 44.99944444444444,
+      "sigma_arcsec": 5.0
+    },
+    {
+      "type": "azimuth",
+      "from": "A",
+      "to": "B",
+      "value_deg": 90.00055555555556,
+      "sigma_arcsec": 3.0
+    },
+    {
+      "type": "height_diff",
+      "from": "A",
+      "to": "B",
+      "value": 1.252,
+      "sigma": 0.003
+    },
+    {
+      "type": "height_diff",
+      "from": "B",
+      "to": "C",
+      "value": 0.8469999999999943,
+      "sigma": 0.003
+    },
+    {
+      "type": "height_diff",
+      "from": "C",
+      "to": "D",
+      "value": -1.249,
+      "sigma": 0.003
+    },
+    {
+      "type": "height_diff",
+      "from": "D",
+      "to": "A",
+      "value": -0.8519999999999943,
+      "sigma": 0.003
+    },
+    {
+      "type": "height_diff",
+      "from": "A",
+      "to": "E",
+      "value": 1.503,
+      "sigma": 0.003
+    },
+    {
+      "type": "height_diff",
+      "from": "E",
+      "to": "C",
+      "value": 0.5989999999999943,
+      "sigma": 0.003
+    }
+  ]
+}
